@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Camper Site</title>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	
+</head>
+
+<body> 
+
+<nav>
+	<a href="index.html#home">HOME</a>
+	<a href="index.html#about">ABOUT</a>
+	<a href="index.html#events">EVENTS</a>		<!-- Navigation buttons displayed at top of page --> 
+	<a href="index.html#contact">CONTACT</a>
+	<a href=""><span id="customise">CUSTOMISE</span></a>
+</nav>
+			<img src="images/image4.png" alt="VW camper model" id="van"/>  <!-- image for customisation -->
+			<p id="colorP"> Change the colour! </p> <!-- text displayed underneath image to tell user -->
+			<input type="range" id="range" min="0" max="360" /> <!-- slider for the user to change colour -->
+			<br>
+			
+			<button class="bGreen" onclick="changeColor(121)"> <b>Green</b></button> <!-- preset button to set the position of slider (displays green) -->
+			<button class="bRed" onclick="changeColor(400)"> <b>Red</b> </button> <!-- preset button to set the position of slider (displays red) -->
+			<button class="bBlue" onclick="changeColor(210)"> <b>Blue</b> </button> <!-- preset button to set the position of slider (displays blue) -->
+			<button class="bPurple" onclick="changeColor(270)"> <b>Purple</b> </button> <!-- preset button to set the position of slider (displays purple) -->
+			
+<script type="text/JavaScript" src="js/functions.js"></script>	<!-- link to js --> 
+</body>
+
+</html>
